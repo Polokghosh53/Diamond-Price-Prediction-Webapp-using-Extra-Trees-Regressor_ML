@@ -1,0 +1,413 @@
+2021-06-05 21:12:20,456:INFO:Initializing load_model()
+2021-06-05 21:12:20,456:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-05 21:12:51,504:INFO:Initializing load_model()
+2021-06-05 21:12:51,504:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-05 21:12:53,245:INFO:Initializing load_model()
+2021-06-05 21:12:53,245:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-05 22:14:45,006:INFO:Initializing load_model()
+2021-06-05 22:14:45,007:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-05 22:15:32,753:INFO:Initializing load_model()
+2021-06-05 22:15:32,757:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-05 22:16:34,747:INFO:Initializing load_model()
+2021-06-05 22:16:34,748:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-05 22:16:56,228:INFO:Initializing load_model()
+2021-06-05 22:16:56,228:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-05 22:17:06,681:INFO:Initializing load_model()
+2021-06-05 22:17:06,681:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-05 22:17:18,368:INFO:Initializing load_model()
+2021-06-05 22:17:18,369:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-05 22:17:31,551:INFO:Initializing load_model()
+2021-06-05 22:17:31,551:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-05 22:17:45,207:INFO:Initializing predict_model()
+2021-06-05 22:17:45,207:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['cut', 'color',
+                                                            'clarity'],
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'depth',
+                                                          'table'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='price',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-06-05 22:17:45,219:INFO:Checking exceptions
+2021-06-05 22:17:45,219:INFO:Preloading libraries
+2021-06-05 22:19:20,491:INFO:Initializing load_model()
+2021-06-05 22:19:20,491:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-05 22:19:37,085:INFO:Initializing load_model()
+2021-06-05 22:19:37,086:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-05 22:19:49,110:INFO:Initializing load_model()
+2021-06-05 22:19:49,111:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-05 22:19:59,166:INFO:Initializing predict_model()
+2021-06-05 22:19:59,182:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['cut', 'color',
+                                                            'clarity'],
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'depth',
+                                                          'table'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='price',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-06-05 22:19:59,182:INFO:Checking exceptions
+2021-06-05 22:19:59,183:INFO:Preloading libraries
+2021-06-06 11:02:35,983:INFO:Initializing load_model()
+2021-06-06 11:02:35,984:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:07:09,910:INFO:Initializing load_model()
+2021-06-06 11:07:09,910:INFO:load_model(model_name=deployment_05042021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:07:20,040:INFO:Initializing predict_model()
+2021-06-06 11:07:20,040:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['cut', 'color',
+                                                            'clarity'],
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'depth',
+                                                          'table'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='price',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-06-06 11:07:20,043:INFO:Checking exceptions
+2021-06-06 11:07:20,043:INFO:Preloading libraries
+2021-06-06 11:48:13,011:INFO:Initializing load_model()
+2021-06-06 11:48:13,011:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:48:22,355:INFO:Initializing load_model()
+2021-06-06 11:48:22,355:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:48:23,311:INFO:Initializing load_model()
+2021-06-06 11:48:23,311:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:48:28,673:INFO:Initializing load_model()
+2021-06-06 11:48:28,673:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:48:30,196:INFO:Initializing load_model()
+2021-06-06 11:48:30,198:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:48:36,925:INFO:Initializing load_model()
+2021-06-06 11:48:36,925:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:48:47,094:INFO:Initializing load_model()
+2021-06-06 11:48:47,094:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:48:52,981:INFO:Initializing predict_model()
+2021-06-06 11:48:52,981:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['cut', 'color',
+                                                            'clarity'],
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'table'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1'...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='price',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-06-06 11:48:52,995:INFO:Checking exceptions
+2021-06-06 11:48:52,995:INFO:Preloading libraries
+2021-06-06 11:49:20,154:INFO:Initializing load_model()
+2021-06-06 11:49:20,154:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:49:28,512:INFO:Initializing load_model()
+2021-06-06 11:49:28,513:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:49:29,011:INFO:Initializing predict_model()
+2021-06-06 11:49:29,012:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['cut', 'color',
+                                                            'clarity'],
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'table'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1'...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='price',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-06-06 11:49:29,013:INFO:Checking exceptions
+2021-06-06 11:49:29,014:INFO:Preloading libraries
+2021-06-06 11:52:27,295:INFO:Initializing load_model()
+2021-06-06 11:52:27,295:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:52:54,212:INFO:Initializing load_model()
+2021-06-06 11:52:54,212:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:52:59,186:INFO:Initializing load_model()
+2021-06-06 11:52:59,187:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:53:01,036:INFO:Initializing load_model()
+2021-06-06 11:53:01,036:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:53:13,075:INFO:Initializing load_model()
+2021-06-06 11:53:13,076:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:53:21,582:INFO:Initializing load_model()
+2021-06-06 11:53:21,583:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:53:27,846:INFO:Initializing load_model()
+2021-06-06 11:53:27,846:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:53:34,348:INFO:Initializing load_model()
+2021-06-06 11:53:34,349:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:53:46,359:INFO:Initializing load_model()
+2021-06-06 11:53:46,360:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 11:53:53,266:INFO:Initializing predict_model()
+2021-06-06 11:53:53,275:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['cut', 'color',
+                                                            'clarity'],
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'table'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1'...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='price',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-06-06 11:53:53,276:INFO:Checking exceptions
+2021-06-06 11:53:53,276:INFO:Preloading libraries
+2021-06-06 19:45:16,847:INFO:Initializing load_model()
+2021-06-06 19:45:16,847:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 19:45:47,554:INFO:Initializing load_model()
+2021-06-06 19:45:47,554:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 19:45:48,260:INFO:Initializing predict_model()
+2021-06-06 19:45:48,261:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['cut', 'color',
+                                                            'clarity'],
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'table'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1'...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='price',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-06-06 19:45:48,262:INFO:Checking exceptions
+2021-06-06 19:45:48,262:INFO:Preloading libraries
+2021-06-06 19:58:21,227:INFO:Initializing load_model()
+2021-06-06 19:58:21,227:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 19:58:32,915:INFO:Initializing load_model()
+2021-06-06 19:58:32,915:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 19:58:37,756:INFO:Initializing predict_model()
+2021-06-06 19:58:37,757:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['cut', 'color',
+                                                            'clarity'],
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'table'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1'...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='price',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-06-06 19:58:37,757:INFO:Checking exceptions
+2021-06-06 19:58:37,758:INFO:Preloading libraries
+2021-06-06 20:08:47,017:INFO:Initializing load_model()
+2021-06-06 20:08:47,018:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 20:09:07,723:INFO:Initializing load_model()
+2021-06-06 20:09:07,725:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 20:09:30,586:INFO:Initializing load_model()
+2021-06-06 20:09:30,587:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 20:09:44,212:INFO:Initializing load_model()
+2021-06-06 20:09:44,213:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 20:09:44,854:INFO:Initializing load_model()
+2021-06-06 20:09:44,855:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 20:09:56,134:INFO:Initializing load_model()
+2021-06-06 20:09:56,135:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-06 20:10:02,777:INFO:Initializing predict_model()
+2021-06-06 20:10:02,777:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['cut', 'color',
+                                                            'clarity'],
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'table'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1'...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='price',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-06-06 20:10:02,791:INFO:Checking exceptions
+2021-06-06 20:10:02,792:INFO:Preloading libraries
+2021-06-06 20:19:38,872:INFO:Initializing load_model()
+2021-06-06 20:19:38,872:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 19:48:36,030:INFO:Initializing load_model()
+2021-06-08 19:48:36,030:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 19:48:55,351:INFO:Initializing load_model()
+2021-06-08 19:48:55,351:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 19:48:57,883:INFO:Initializing load_model()
+2021-06-08 19:48:57,884:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 19:49:02,373:INFO:Initializing load_model()
+2021-06-08 19:49:02,374:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 19:49:04,904:INFO:Initializing load_model()
+2021-06-08 19:49:04,904:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 19:49:12,340:INFO:Initializing load_model()
+2021-06-08 19:49:12,340:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 19:49:18,786:INFO:Initializing load_model()
+2021-06-08 19:49:18,787:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 19:49:28,622:INFO:Initializing load_model()
+2021-06-08 19:49:28,622:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 19:49:34,068:INFO:Initializing predict_model()
+2021-06-08 19:49:34,069:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['cut', 'color',
+                                                            'clarity'],
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'table'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1'...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='price',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-06-08 19:49:34,070:INFO:Checking exceptions
+2021-06-08 19:49:34,070:INFO:Preloading libraries
+2021-06-08 20:02:20,383:INFO:Initializing load_model()
+2021-06-08 20:02:20,383:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 20:06:30,473:INFO:Initializing load_model()
+2021-06-08 20:06:30,488:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 20:06:47,857:INFO:Initializing load_model()
+2021-06-08 20:06:47,858:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 20:06:52,800:INFO:Initializing load_model()
+2021-06-08 20:06:52,800:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 20:06:56,890:INFO:Initializing load_model()
+2021-06-08 20:06:56,891:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 20:06:59,571:INFO:Initializing load_model()
+2021-06-08 20:06:59,571:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 20:07:02,119:INFO:Initializing load_model()
+2021-06-08 20:07:02,119:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 20:07:04,075:INFO:Initializing load_model()
+2021-06-08 20:07:04,076:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 20:07:06,024:INFO:Initializing load_model()
+2021-06-08 20:07:06,026:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 20:07:08,812:INFO:Initializing load_model()
+2021-06-08 20:07:08,813:INFO:load_model(model_name=deployment_06062021, platform=None, authentication=None, verbose=True)
+2021-06-08 20:07:09,470:INFO:Initializing predict_model()
+2021-06-08 20:07:09,472:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=['cut', 'color',
+                                                            'clarity'],
+                                      ml_usecase='regression',
+                                      numerical_features=['carat', 'table'],
+                                      target='price')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1'...
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs',
+                 DFS_Classic(interactions=['multiply'], ml_usecase='regression',
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='price',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 ExtraTreesRegressor(n_jobs=-1, random_state=123)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-06-08 20:07:09,473:INFO:Checking exceptions
+2021-06-08 20:07:09,474:INFO:Preloading libraries
